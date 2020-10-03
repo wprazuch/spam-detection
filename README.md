@@ -1,4 +1,6 @@
-# spam-detection
+# Spam Detection in E-mails and Instant Messages
+![Spam](static/spam.png)
+
 
 ## Introduction
 
