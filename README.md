@@ -24,6 +24,6 @@ In the project, Tensorflow together with high-level abstractions written in Kera
 to quickly build NLP solutions, some handy out-of-the-box tools were used. However, a standard step-by-step approach for
 data preparation & preprocessing were used to show how it's done.
 
-## Conclusion
+### Endnote
 You may check some of my different projects on my [Github Pages Site](https://wprazuch.github.io/)
 
