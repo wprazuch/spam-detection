@@ -54,6 +54,14 @@ def tokenize_data(data, fit=False):
     return data_tokenized
 
 
+def preprocess_input(data):
+    print(data)
+    data = tokenize_data(data)
+    data = pad_sequences(data, 100)
+
+    return data
+
+
 def get_num_words():
     try:
         with open('tokenizer.pkl', 'rb') as tokenizer_object:
