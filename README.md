@@ -32,6 +32,15 @@ python -m server.app
 ```
 This launches a Flask server. If the server is up and running, you may communicate with it like in `rest_client.ipynb`
 
+You can also set up an entire project in Docker container. For that, you first need to build it:
+```
+docker build -t spam_detection -f docker/development.dockerfile .
+```
+Then, you can launch a Flask server in Docker container by typing:
+```
+docker run -p 5000:5000  spam_detection python -m server.app
+```
+To and visit `http://localhost:5000/` to check if the server is running.
 
 ## Methods
 
